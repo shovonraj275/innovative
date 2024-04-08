@@ -45,6 +45,9 @@ a {
 .discription{
     text-align: center;
     text-transform: capitalize;
+    width: 60%;
+    margin-left: 25%;   
+    margin-bottom: 10px;
 }
 /* top header */
 #header_top {
@@ -55,6 +58,9 @@ a {
 
 #header_top .container {
     padding: 10px 60px !important;
+}
+#header_top .tle_link_color {
+   color: #fff;
 }
 
 #header_top .flex {
@@ -223,6 +229,37 @@ nav#nav {
     width: 100%;
 }
 /* about us section */
+/* service section */
+/* #service{} */
+#service .grid{
+    grid-template-columns: auto auto auto;
+    gap: 25px;
+    text-align: center;
+}
+#service .grid .grid_items{
+    border: 2px solid transparent;
+}
+#service .grid .grid_items:hover{
+    border: 2px solid #08f3d0;
+}
+#service .serviceHeading{
+    font-size: 50px;
+    
+} 
+#service .grid .Service_discription {
+    text-align: justify;
+    min-height: 150px;
+    padding: 5px 10px;
+}
+
+#service .ServiceIcon{
+    font-size: 50px;
+    color: #08f3d0;
+    padding-top: 10px;
+} 
+
+/* service section */
+
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {
@@ -255,6 +292,17 @@ nav#nav {
 
     /* about us section */
     /* about us section */
+    /* service */
+    #service .grid .grid_items{
+        border: 2px solid #08f3d0;
+    }
+    #service .grid{
+        display: grid;
+        grid-template-columns:auto;
+        gap: 10px;
+        text-align: center;
+    }
+    /* service */
 
 }
 
