@@ -236,20 +236,35 @@ nav#nav {
 /* #aboutUs . {
 
 } */
-#aboutUs .border {
+#teem .border {
     border: 3px solid #08f3d0;
 }
-#aboutUs .rounded {
+#teem .rounded {
 
 }
-#aboutUs .teemMemberMame {
+
+#teem .roundedMargin {
+    margin-top: 100px;
+}
+#teem .negetiveMargin {
+    margin-top: -100px;
+}
+
+#teem img{ 
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#teem .teemMemberMame {
   text-align: center;
 }
-#aboutUs .digination {
+#teem .digination {
   text-align: right;
   margin: 10px 0 ;
 }
-#aboutUs .messege {
+#teem .messege {
     text-align: justify;
 }
 
@@ -269,6 +284,9 @@ nav#nav {
     grid-template-columns: auto auto auto;
     gap: 25px;
     text-align: center;
+}
+#service{
+    padding: 40px 60px;
 }
 #service .grid .grid_items{
     border: 2px solid transparent;
