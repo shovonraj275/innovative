@@ -101,7 +101,7 @@ nav#nav {
     font-size: 17px;
 }
 
-.active {
+#header_bottom .active {
     background-color: #08f3d0;
     color: white;
 }
@@ -218,6 +218,11 @@ nav#nav {
 
 /* slider */
 /* about us section */
+#aboutUs{
+    background-color: #37444D;
+    color: #fff;
+    padding: 40px 60px;
+}
 #aboutUs .grid{
  grid-template-columns: 50% 50%;
 }
@@ -228,10 +233,39 @@ nav#nav {
 #aboutUs .grid  img{
     width: 100%;
 }
+/* #aboutUs . {
+
+} */
+#aboutUs .border {
+    border: 3px solid #08f3d0;
+}
+#aboutUs .rounded {
+
+}
+#aboutUs .teemMemberMame {
+  text-align: center;
+}
+#aboutUs .digination {
+  text-align: right;
+  margin: 10px 0 ;
+}
+#aboutUs .messege {
+    text-align: justify;
+}
+
+
 /* about us section */
 /* service section */
 /* #service{} */
 #service .grid{
+    grid-template-columns: auto auto auto;
+    gap: 25px;
+    text-align: center;
+}
+#prossbar{
+    padding: 40px 60px;
+}
+#prossbar .grid{
     grid-template-columns: auto auto auto;
     gap: 25px;
     text-align: center;
@@ -257,6 +291,38 @@ nav#nav {
     color: #08f3d0;
     padding-top: 10px;
 } 
+
+/* progesss bar */
+.ldBar path.mainline {
+    stroke-width: 5;
+    stroke: #09f;
+    stroke-linecap: round;
+    margin-left: 25%;
+}
+.ldBar path.baseline {
+    stroke-width: 3;
+    stroke: #f1f2f3;
+    stroke-linecap: round;
+    filter: url(#custom-shadow);
+}
+.ldBar {
+    margin: 0 auto;
+    padding: 10PX 0 ;
+}
+.one .mainline{
+    stroke: red !important;
+}
+.two .mainline{
+    stroke: yellowgreen !important;
+}
+.three .mainline{
+    stroke: blueviolet !important;
+}
+.four .mainline{
+    stroke: yellow !important;
+}
+
+/* progesss bar */
 
 /* service section */
 
@@ -297,6 +363,12 @@ nav#nav {
         border: 2px solid #08f3d0;
     }
     #service .grid{
+        display: grid;
+        grid-template-columns:auto;
+        gap: 10px;
+        text-align: center;
+    }
+    #prossbar .grid{
         display: grid;
         grid-template-columns:auto;
         gap: 10px;
