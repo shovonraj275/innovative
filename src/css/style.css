@@ -160,7 +160,7 @@ nav#nav {
     display: block;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 
     .topnav a,
     .dropdown .dropbtn {
@@ -173,7 +173,7 @@ nav#nav {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .topnav.responsive {
         position: relative;
     }
@@ -348,7 +348,7 @@ nav#nav {
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {
     .container {
-        padding: 0 20px;
+        padding: 0 20px ;
     }
 
     .flex {
@@ -377,6 +377,12 @@ nav#nav {
     /* about us section */
     /* about us section */
     /* service */
+    #service {
+        padding: 40px 20px;
+    }
+    #service .container {
+        padding: 0 !important;
+    }
     #service .grid .grid_items{
         border: 2px solid #08f3d0;
     }
@@ -393,6 +399,15 @@ nav#nav {
         text-align: center;
     }
     /* service */
+    #aboutUs {
+        padding: 40px 20px;
+    }
+    #aboutUs .container{
+        padding: 0 !important;
+    }
+    #aboutUs .grid{
+        grid-template-columns: auto ;
+    }
 
 }
 
@@ -400,6 +415,15 @@ nav#nav {
 @media (min-width: 576px) and (max-width: 767.98px) {
     .heading::after {
         right: 40%;
+    }
+    #service .grid{
+        display: grid;
+        grid-template-columns:auto auto;
+        gap: 10px;
+        text-align: center;
+    }
+    #aboutUs .grid{
+        grid-template-columns: auto ;
     }
 }
 
@@ -409,7 +433,21 @@ nav#nav {
     .heading::after {
         right: 40%;
     }
-
+    #service {
+        padding: 40px 30px;
+    }
+    #service .container {
+        padding: 0 !important;
+    }
+    #service .grid{
+        display: grid;
+        grid-template-columns:auto auto;
+        gap: 10px;
+        text-align: center;
+    }
+    #aboutUs .grid{
+        grid-template-columns: auto ;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
