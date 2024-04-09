@@ -13,7 +13,7 @@ a {
 
 /* contianer class reused class */
 .container {
-    padding: 0 60px;
+    padding: 0 60px !important;
 }
 
 .flex {
