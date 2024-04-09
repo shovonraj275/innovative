@@ -309,6 +309,14 @@ nav#nav {
     color: #08f3d0;
     padding-top: 10px;
 } 
+#ClientCommet{}
+#ClientCommet .grid{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: 100px;
+}
+#ClientCommet{}
+#ClientCommet{}
 
 /* progesss bar */
 .ldBar path.mainline {
