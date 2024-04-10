@@ -560,11 +560,18 @@ i.fa-solid.fa-quote-left {
     #aboutUs .grid{
         grid-template-columns: auto ;
     }
+    #ClientCommet .container { 
+        padding: 5px !important;
+        background-color: #08f3d0;
+    }
 }
 
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+    .container {
+        padding: 0 20px !important;
+    }
     .heading::after {
         right: 40%;
     }
@@ -583,12 +590,29 @@ i.fa-solid.fa-quote-left {
     #aboutUs .grid{
         grid-template-columns: auto ;
     }
+    .container {
+    padding: 0 60px !important;
+}
+#ClientCommet .grid {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    gap: 15px;
+    height: 220px;
+    border: 0 solid transparent !important;
+}
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .heading::after {
         right: 41%;
+    }
+    #ClientCommet .grid {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        gap: 15px;
+        height: 200px;
+        border: 0 solid transparent !important;
     }
 }
 
