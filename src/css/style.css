@@ -414,6 +414,44 @@ i.fa-solid.fa-quote-left {
 .four .mainline{
     stroke: yellow !important;
 }
+/* contact */
+#contact{}
+#contact .grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    font-size: 20px;    
+}
+#contact .grid .subGrid{
+    display: grid;
+    width: 100%;
+    gap: 15px;
+    grid-template-columns: 100%;
+    
+}
+#contact .grid .subGridItems{
+    align-items: center;
+    background-color: #08f3d0;
+    width: 100%;
+    display: flex;
+    height: 100px;
+}
+#contact .ContactIcon{
+    width: 5%;
+    margin-left: 3%;
+    font-size: 20px;
+    color: #fff;
+}
+#contact .Contactontact{
+    color: #fff;
+}
+#contact .Contactontact a{
+    color: #fff;
+    /* font-size: px; */
+}
+#contact{}
+#contact{}
+/* contact */
 
 /* progesss bar */
 
@@ -543,6 +581,9 @@ i.fa-solid.fa-quote-left {
      }
      #teem .container{
         padding: 20px !important;
+     }
+     #contact .grid{
+        
      }
 }
 
