@@ -8,49 +8,7 @@ function myFunction() {
   }
 }
 
-// $('.owl-carousel').owlCarousel({
-//   loop:true,
-//   margin:10,
-//   nav:false,
-//   items:4,
-//   autoplay:true,
-//   responsiveClass: true,
-//   responsive: {
-//       0:{
-//         items: 1
-//       },
-//       480:{
-//         items: 2
-//       },
-//       769:{
-//         items: 4
-//       }
-//   }
-// })
-$(document).ready(function () {
 
-  $(".owl-carousel").owlCarousel({
-      // autoPlay: true,
-      margin: 10,
-      items: 4,
-      responsive:{
-              525:{
-                  items:1,
-              },
-              787:{
-                  items:2,
-              },
-              992:{
-                  items:4,
-              },
-}
-  });
-
-})
-
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-}
 
 $(document).ready(function(){
   $('.slider').bxSlider({
@@ -59,7 +17,31 @@ $(document).ready(function(){
   });
 });
 
-
+// owl slider
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+    margin:20,
+    loop:true,
+    autoplay:true,
+    responsive:{
+      320:{
+        items:1,
+      },
+      600:{
+        items:2,
+      },
+      992:{
+        items:3,
+      },
+      1200:{
+        items:4,
+      },
+    }
+  });
+});
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
 
 
 

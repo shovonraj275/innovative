@@ -583,8 +583,14 @@ i.fa-solid.fa-quote-left {
         padding: 20px !important;
      }
      #contact .grid{
-        
+        grid-template-columns: auto;
      }
+     .container {
+        padding: 0 20px !important;
+    }
+    #contact .grid{
+        font-size: 14px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
